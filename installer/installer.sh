@@ -15,7 +15,7 @@ apt-get -y install python-pip python-dev libjpeg-dev
 echo "------------------"
 echo "Installing gphoto2"
 echo "------------------"
-wget https://github.com/gonzalo/gphoto2-updater/releases/download/2.5.7/gphoto2-updater.sh
+wget https://raw.githubusercontent.com/kchapline/gphoto2-updater/master/gphoto2-updater.sh
 chmod +x gphoto2-updater.sh
 ./gphoto2-updater.sh
 rm gphoto2-updater.sh
