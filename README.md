@@ -20,6 +20,9 @@ The Pi needs a case to protect it while being used in the field.  Several models
 Photostreamer connects to the Internet via a WiFi dongle and any hotspot.  [This one](http://www.amazon.com/gp/product/B00H28H8DU?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s06) from Plugable is plug-and-play with the Pi.  It also supports infrastructure mode, which the photostreamer-pi application requires.
 
 ##### Storage
-The Pi uses a Micro SDHC card to store its operating system and any media.  Best results for the Photostreamer are achieved with a Class 10 card.  You'll want at least 16GB.  We use [this 32GB card from SanDisk.](http://www.amazon.com/gp/product/B00M55C0NS?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s04)
+The Pi uses a Micro SDHC card to store its operating system and media.  Best results for the Photostreamer are achieved with a Class 10 card because of its speed.  You'll want at least 16GB.  We use [this 32GB card from SanDisk.](http://www.amazon.com/gp/product/B00M55C0NS?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s04)
+
+##### Battery
+The Photostreamer will run for several hours on an external USB battery.  [This 6000mAh model from Eachine](http://www.amazon.com/gp/product/B00NUS0BQW?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00) fits the GeauxRobot case and is easily attached with Velcro.  The battery also has a readout showing the percentage of its remaining power, so you won't be surprised when it runs out of juice.
 
 
