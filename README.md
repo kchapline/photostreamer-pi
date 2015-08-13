@@ -11,12 +11,15 @@ Unlike the original version, this version will also have complete test coverage 
 This is the hardware we use and recommend.  There are many other options, but we have not tested them and can't vouch for their suitability for this use.
 
 ##### Project Board
-
 The photostreamer-pi application runs on the Raspberry Pi.  Best results are achieved with the [Raspberry Pi 2 Model B.](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
 
 ##### Case
 The Pi needs a case to protect it while being used in the field.  Several models are available; we use [this slim case enclosure from GeauxRobot.](http://www.amazon.com/gp/product/B00NH8NU3Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s05) It requires assembly, but once built it's easy to open and it fits well with the battery we recommend.
 
 ##### WiFi
-Photostreamer connects to the Internet via WiFi
+Photostreamer connects to the Internet via a WiFi dongle and any hotspot.  [This one](http://www.amazon.com/gp/product/B00H28H8DU?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s06) from Plugable is plug-and-play with the Pi.  It also supports infrastructure mode, which the photostreamer-pi application requires.
+
+##### Storage
+The Pi uses a Micro SDHC card to store its operating system and any media.  Best results for the Photostreamer are achieved with a Class 10 card.  You'll want at least 16GB.  We use [this 32GB card from SanDisk.](http://www.amazon.com/gp/product/B00M55C0NS?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s04)
+
 
